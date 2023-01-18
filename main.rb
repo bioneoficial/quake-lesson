@@ -26,13 +26,17 @@ File.foreach('test.log').slice_after(/InitGame/).slice_before(/ShutdownGame/ || 
             games[game_count][:kills][match[:killer_name]] = 0
           end
           games[game_count][:players] << match[:victim_name] unless games[game_count][:players].include?(match[:victim_name])
-          games[game_count][:kills][match[:killer_name]] =
-            games[game_count][:kills].key?(match[:killer_name]) ? (games[game_count][:kills][match[:killer_name]] + 1) : 0
-          games[game_count][:kills][match[:victim_name]] = 0 unless games[game_count][:kills].key?(match[:victim_name])
+          if match[:killer_name] != '<world>' && match[:killer_name] != match[:victim_name]
+            games[game_count][:kills][match[:victim_name]] = 0 unless games[game_count][:kills].key?(match[:victim_name])
+            games[game_count][:kills][match[:killer_name]] =
+              games[game_count][:kills].key?(match[:killer_name]) ? (games[game_count][:kills][match[:killer_name]] + 1) : 0
+          end
         end
     end.compact
   end
 end
-#puts match_kill_data
-# puts game_count
-for n in games do puts n end
+
+games.reject! { |game_id, game_data| game_data[:players].empty? }
+
+
+puts games
