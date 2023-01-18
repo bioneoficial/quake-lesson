@@ -39,4 +39,6 @@ end
 games.reject! { |game_id, game_data| game_data[:players].empty? }
 
 
-puts games
+# for n in games
+#   puts n
+# end
