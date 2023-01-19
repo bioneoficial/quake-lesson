@@ -14,7 +14,8 @@ class Game
     @total_kills += 1
     add_player(match[:killer_name]) unless @players.key?(match[:killer_name]) || match[:killer_name] == '<world>'
     add_player(match[:victim_name]) unless @players.key?(match[:victim_name])
-    increment_kill(match[:killer_name], match[:victim_name]) if match[:killer_name] != '<world>' && match[:killer_name] != match[:victim_name]
+    increment_kill(match[:killer_name]) if match[:killer_name] != '<world>' && match[:killer_name] != match[:victim_name]
+    decrement_kill(match[:victim_name]) if match[:killer_name] == '<world>'
   end
 
   private
@@ -24,8 +25,13 @@ class Game
     @kills[player_name] = 0
   end
 
-  def increment_kill(killer_name, victim_name)
+  def increment_kill(killer_name)
     @players[killer_name].increment_kill
     @kills[killer_name] += 1
+  end
+
+  def decrement_kill(victim_name)
+    @players[victim_name].decrement_kill
+    @kills[victim_name] -= 1
   end
 end

@@ -11,4 +11,8 @@ class Player
   def increment_kill
     @kills += 1
   end
+
+  def decrement_kill
+    @kills -= 1
+  end
 end
