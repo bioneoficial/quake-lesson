@@ -18,3 +18,6 @@ report_kill.print_kill_report #Task2
 
 #Task 3
 ted.write_means_of_death_report("means_of_death_report.txt")
+ted.print_means_of_death_report
+
+#Task 4

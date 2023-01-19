@@ -69,5 +69,13 @@ class GameParser
     end
   end
 
-
+  def print_means_of_death_report
+    @games.each do |game_id, game|
+      puts "Game #{game_id}:"
+      game.kills_by_means.each do |means_of_death, count|
+        puts "#{means_of_death}: #{count}" if means_of_death
+      end
+      puts "\n"
+    end
+  end
 end

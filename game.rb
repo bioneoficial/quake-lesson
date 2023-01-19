@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require './game_parser'
 require_relative 'player'
 require './means_of_death'
@@ -16,7 +18,10 @@ class Game
     @total_kills += 1
     add_player(match[:killer_name]) unless @players.key?(match[:killer_name]) || match[:killer_name] == '<world>'
     add_player(match[:victim_name]) unless @players.key?(match[:victim_name])
-    increment_kill(match[:killer_name], match[:means_of_death_id]) if match[:killer_name] != '<world>' && match[:killer_name] != match[:victim_name]
+    if match[:killer_name] != '<world>' && match[:killer_name] != match[:victim_name]
+      increment_kill(match[:killer_name],
+                     match[:means_of_death_id])
+    end
     decrement_kill(match[:victim_name]) if match[:killer_name] == '<world>'
     process_means(match[:means_of_death])
   end
