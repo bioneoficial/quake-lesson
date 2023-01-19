@@ -1,26 +1,16 @@
 require_relative 'game'
 require_relative 'game_parser'
+require_relative 'top_kill_report'
 #TASK1
-parser = GameParser.new
-ted =  parser.parse('games.log')
-ted.each do |game_id, game|
-  puts "Game #{game_id}:"
-  puts "Total kills: #{game.total_kills}"
-  puts "Players: #{game.players.join(', ')}"
-  game.kills.each do |player, kills|
-    puts "#{player} killed #{kills} players"
-  end
-  puts "\n"
-end
-File.open("task1.txt", "w") do |file|
-  ted.each do |game_id, game|
-    file.puts "Game #{game_id}:"
-    file.puts "Total kills: #{game.total_kills}"
-    file.puts "Players: #{game.players.join(', ')}"
-    game.kills.each do |player, kills|
-      file.puts "#{player} killed #{kills} players"
-    end
-    file.puts "\n"
-  end
-end
+#
+ted = GameParser.new
+ted.parse('games.log')
+ted.write_games_report('games_report.txt')
+ted.print_games_report #Task 2
 
+
+#Task 2
+report_kill = TopKillReport.new(ted.parse('games.log'))
+report_kill.generate
+report_kill.write_to_file("top_kills_report.txt")
+report_kill.print_kill_report #Task2

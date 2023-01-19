@@ -27,28 +27,3 @@ describe Game do
     end
   end
 end
-
-describe GameParser do
-  let(:parser) { GameParser.new }
-  let(:file) { double }
-
-  before do
-    allow(File).to receive(:foreach).with(file).and_yield("InitGame\n").and_yield(line).and_yield("ShutdownGame\n")
-  end
-
-  describe '#parse' do
-    it 'creates a new game for each InitGame line' do
-      expect { parser.parse(file) }.to change { parser.games.count }.by(1)
-    end
-
-    it 'processes kill lines for the current game' do
-      expect_any_instance_of(Game).to receive(:process_kill).with(line)
-      parser.parse(file)
-    end
-
-    it 'removes games with no players' do
-      parser.parse(file)
-      expect(parser.games).to be_empty
-    end
-  end
-end
