@@ -13,7 +13,9 @@ describe Game do
 
     it 'adds the killer and victim to the players array' do
       game.process_kill(line)
-      expect(game.players).to match_array(%w[player1 player2])
+      expect(game.players['player1']).to be_an_instance_of(Player)
+      expect(game.players['player2']).to be_an_instance_of(Player)
+    end
     end
 
     it 'increments the kill count for the killer' do
@@ -26,4 +28,3 @@ describe Game do
       expect(game.kills['player2']).to eq(0)
     end
   end
-end
