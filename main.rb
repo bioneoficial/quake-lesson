@@ -14,3 +14,7 @@ report_kill = TopKillReport.new(ted.parse('games.log'))
 report_kill.generate
 report_kill.write_to_file("top_kills_report.txt")
 report_kill.print_kill_report #Task2
+
+
+#Task 3
+ted.write_means_of_death_report("means_of_death_report.txt")

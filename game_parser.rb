@@ -1,11 +1,14 @@
 # frozen_string_literal: true
 
+require_relative 'means_of_death'
+require_relative 'game'
 class GameParser
-  attr_accessor :games
+  attr_accessor :games, :kills_by_means
 
   def initialize
     @games = {}
     @game_count = 0
+    @kills_by_means = {}
   end
 
   def parse(file)
@@ -53,4 +56,18 @@ class GameParser
       puts "\n"
     end
   end
+
+  def write_means_of_death_report(file_name)
+    File.open(file_name, 'w') do |file|
+      @games.each do |game_id, game|
+        file.puts "Game #{game_id}:"
+        game.kills_by_means.each do |means_of_death, count|
+          file.puts "#{means_of_death}: #{count}" if means_of_death
+        end
+        file.puts "\n"
+      end
+    end
+  end
+
+
 end

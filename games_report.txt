@@ -1,0 +1,177 @@
+Game 2:
+Total kills: 11
+Players: Isgalamido, Mocinha
+Isgalamido killed -7 players
+Mocinha killed 0 players
+
+Game 3:
+Total kills: 4
+Players: Isgalamido, Mocinha, Zeh, Dono da Bola
+Isgalamido killed 1 players
+Mocinha killed 0 players
+Zeh killed -2 players
+Dono da Bola killed -1 players
+
+Game 4:
+Total kills: 69
+Players: Isgalamido, Dono da Bola, Zeh, Assasinu Credi
+Isgalamido killed 19 players
+Dono da Bola killed -7 players
+Zeh killed 20 players
+Assasinu Credi killed -3 players
+
+Game 5:
+Total kills: 9
+Players: Isgalamido, Zeh, Dono da Bola, Assasinu Credi
+Isgalamido killed 2 players
+Zeh killed 1 players
+Dono da Bola killed 0 players
+Assasinu Credi killed -4 players
+
+Game 6:
+Total kills: 26
+Players: Oootsimo, Zeh, Isgalamido, UnnamedPlayer, Dono da Bola, Maluquinho, Assasinu Credi, Mal
+Oootsimo killed 8 players
+Zeh killed 7 players
+Isgalamido killed 3 players
+UnnamedPlayer killed 0 players
+Dono da Bola killed 0 players
+Maluquinho killed 0 players
+Assasinu Credi killed 0 players
+Mal killed 0 players
+
+Game 7:
+Total kills: 94
+Players: Zeh, Dono da Bola, Oootsimo, Mal, Isgalamido, Assasinu Credi, Chessus
+Zeh killed 8 players
+Dono da Bola killed -2 players
+Oootsimo killed 20 players
+Mal killed -3 players
+Isgalamido killed 14 players
+Assasinu Credi killed 0 players
+Chessus killed 0 players
+
+Game 8:
+Total kills: 72
+Players: Oootsimo, Isgalamido, Zeh, Assasinu Credi, Dono da Bola, Mal
+Oootsimo killed 15 players
+Isgalamido killed 20 players
+Zeh killed 12 players
+Assasinu Credi killed -2 players
+Dono da Bola killed -2 players
+Mal killed -3 players
+
+Game 9:
+Total kills: 53
+Players: Assasinu Credi, Oootsimo, Zeh, Mal, Dono da Bola, Isgalamido, Chessus
+Assasinu Credi killed -1 players
+Oootsimo killed 8 players
+Zeh killed 12 players
+Mal killed 2 players
+Dono da Bola killed -1 players
+Isgalamido killed 1 players
+Chessus killed 8 players
+
+Game 10:
+Total kills: 50
+Players: Mal, Oootsimo, Chessus, Dono da Bola, Zeh, Isgalamido, Assasinu Credi
+Mal killed 1 players
+Oootsimo killed -1 players
+Chessus killed 5 players
+Dono da Bola killed -2 players
+Zeh killed 7 players
+Isgalamido killed 5 players
+Assasinu Credi killed -2 players
+
+Game 11:
+Total kills: 19
+Players: Dono da Bola, Isgalamido, Oootsimo, Assasinu Credi, Chessus, Zeh, Mal
+Dono da Bola killed -3 players
+Isgalamido killed 4 players
+Oootsimo killed 4 players
+Assasinu Credi killed -3 players
+Chessus killed 0 players
+Zeh killed 0 players
+Mal killed 0 players
+
+Game 12:
+Total kills: 126
+Players: Dono da Bola, Mal, Zeh, Chessus, Isgalamido, Oootsimo, Assasinu Credi
+Dono da Bola killed -8 players
+Mal killed -7 players
+Zeh killed 11 players
+Chessus killed 12 players
+Isgalamido killed 24 players
+Oootsimo killed 12 players
+Assasinu Credi killed -3 players
+
+Game 13:
+Total kills: 6
+Players: Isgalamido, Oootsimo, Assasinu Credi, Dono da Bola, Zeh
+Isgalamido killed -1 players
+Oootsimo killed 1 players
+Assasinu Credi killed 0 players
+Dono da Bola killed -1 players
+Zeh killed 2 players
+
+Game 14:
+Total kills: 101
+Players: Isgalamido, Zeh, Chessus, Dono da Bola, Mal, Oootsimo, Assasinu Credi
+Isgalamido killed 22 players
+Zeh killed 4 players
+Chessus killed 7 players
+Dono da Bola killed -7 players
+Mal killed -5 players
+Oootsimo killed 9 players
+Assasinu Credi killed -5 players
+
+Game 15:
+Total kills: 3
+Players: Zeh
+Zeh killed -3 players
+
+Game 17:
+Total kills: 13
+Players: Dono da Bola, Zeh, Assasinu Credi, Oootsimo, Isgalamido, Mal
+Dono da Bola killed -2 players
+Zeh killed 0 players
+Assasinu Credi killed -3 players
+Oootsimo killed 0 players
+Isgalamido killed 0 players
+Mal killed -1 players
+
+Game 18:
+Total kills: 5
+Players: Zeh, Assasinu Credi, Isgalamido, Mal, Dono da Bola
+Zeh killed 2 players
+Assasinu Credi killed 0 players
+Isgalamido killed 1 players
+Mal killed -1 players
+Dono da Bola killed -1 players
+
+Game 19:
+Total kills: 68
+Players: Mal, Zeh, Dono da Bola, Isgalamido, Assasinu Credi, Oootsimo
+Mal killed 2 players
+Zeh killed 20 players
+Dono da Bola killed -1 players
+Isgalamido killed 13 players
+Assasinu Credi killed -3 players
+Oootsimo killed 10 players
+
+Game 20:
+Total kills: 1
+Players: Oootsimo, Assasinu Credi
+Oootsimo killed 1 players
+Assasinu Credi killed 0 players
+
+Game 21:
+Total kills: 93
+Players: Dono da Bola, Zeh, Oootsimo, Mal, Isgalamido, Assasinu Credi
+Dono da Bola killed -2 players
+Zeh killed 19 players
+Oootsimo killed 21 players
+Mal killed 6 players
+Isgalamido killed 17 players
+Assasinu Credi killed -3 players
+
