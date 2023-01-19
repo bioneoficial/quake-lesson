@@ -1,11 +1,11 @@
 # frozen_string_literal: true
 require 'rspec'
 require_relative '../Game'
-require_relative '../Player'
+require_relative '../player'
 require_relative '../game_parser'
 
 
-RSpec.describe GameParser do
+describe GameParser do
   let(:parser) { GameParser.new }
   let(:games_file) { 'games.log' }
 
