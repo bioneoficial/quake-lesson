@@ -10,7 +10,7 @@ describe Game do
 
   describe '#initialize' do
     it 'creates a new game instance' do
-      expect(Game.new).to be_an_instance_of(Game)
+      expect(game).to be_an_instance_of(Game)
     end
   end
   describe '#process_kill' do

@@ -1,177 +1,196 @@
-Game 2:
-Total kills: 11
-Players: Isgalamido, Mocinha
-Isgalamido killed -7 players
-Mocinha killed 0 players
+ game_2: {
+   total_kills: 11;
+   players: ["Isgalamido", "Mocinha"]
+   kills: {
+     "Isgalamido":  -7
+     "Mocinha":  0
 
-Game 3:
-Total kills: 4
-Players: Isgalamido, Mocinha, Zeh, Dono da Bola
-Isgalamido killed 1 players
-Mocinha killed 0 players
-Zeh killed -2 players
-Dono da Bola killed -1 players
+ game_3: {
+   total_kills: 4;
+   players: ["Isgalamido", "Mocinha", "Zeh", "Dono da Bola"]
+   kills: {
+     "Isgalamido":  1
+     "Mocinha":  0
+     "Zeh":  -2
+     "Dono da Bola":  -1
 
-Game 4:
-Total kills: 69
-Players: Isgalamido, Dono da Bola, Zeh, Assasinu Credi
-Isgalamido killed 19 players
-Dono da Bola killed -7 players
-Zeh killed 20 players
-Assasinu Credi killed -3 players
+ game_4: {
+   total_kills: 69;
+   players: ["Isgalamido", "Dono da Bola", "Zeh", "Assasinu Credi"]
+   kills: {
+     "Isgalamido":  19
+     "Dono da Bola":  -7
+     "Zeh":  20
+     "Assasinu Credi":  -3
 
-Game 5:
-Total kills: 9
-Players: Isgalamido, Zeh, Dono da Bola, Assasinu Credi
-Isgalamido killed 2 players
-Zeh killed 1 players
-Dono da Bola killed 0 players
-Assasinu Credi killed -4 players
+ game_5: {
+   total_kills: 9;
+   players: ["Isgalamido", "Zeh", "Dono da Bola", "Assasinu Credi"]
+   kills: {
+     "Isgalamido":  2
+     "Zeh":  1
+     "Dono da Bola":  0
+     "Assasinu Credi":  -4
 
-Game 6:
-Total kills: 26
-Players: Oootsimo, Zeh, Isgalamido, UnnamedPlayer, Dono da Bola, Maluquinho, Assasinu Credi, Mal
-Oootsimo killed 8 players
-Zeh killed 7 players
-Isgalamido killed 3 players
-UnnamedPlayer killed 0 players
-Dono da Bola killed 0 players
-Maluquinho killed 0 players
-Assasinu Credi killed 0 players
-Mal killed 0 players
+ game_6: {
+   total_kills: 26;
+   players: ["Oootsimo", "Zeh", "Isgalamido", "UnnamedPlayer", "Dono da Bola", "Maluquinho", "Assasinu Credi", "Mal"]
+   kills: {
+     "Oootsimo":  8
+     "Zeh":  7
+     "Isgalamido":  3
+     "UnnamedPlayer":  0
+     "Dono da Bola":  0
+     "Maluquinho":  0
+     "Assasinu Credi":  0
+     "Mal":  0
 
-Game 7:
-Total kills: 94
-Players: Zeh, Dono da Bola, Oootsimo, Mal, Isgalamido, Assasinu Credi, Chessus
-Zeh killed 8 players
-Dono da Bola killed -2 players
-Oootsimo killed 20 players
-Mal killed -3 players
-Isgalamido killed 14 players
-Assasinu Credi killed 0 players
-Chessus killed 0 players
+ game_7: {
+   total_kills: 94;
+   players: ["Zeh", "Dono da Bola", "Oootsimo", "Mal", "Isgalamido", "Assasinu Credi", "Chessus"]
+   kills: {
+     "Zeh":  8
+     "Dono da Bola":  -2
+     "Oootsimo":  20
+     "Mal":  -3
+     "Isgalamido":  14
+     "Assasinu Credi":  0
+     "Chessus":  0
 
-Game 8:
-Total kills: 72
-Players: Oootsimo, Isgalamido, Zeh, Assasinu Credi, Dono da Bola, Mal
-Oootsimo killed 15 players
-Isgalamido killed 20 players
-Zeh killed 12 players
-Assasinu Credi killed -2 players
-Dono da Bola killed -2 players
-Mal killed -3 players
+ game_8: {
+   total_kills: 72;
+   players: ["Oootsimo", "Isgalamido", "Zeh", "Assasinu Credi", "Dono da Bola", "Mal"]
+   kills: {
+     "Oootsimo":  15
+     "Isgalamido":  20
+     "Zeh":  12
+     "Assasinu Credi":  -2
+     "Dono da Bola":  -2
+     "Mal":  -3
 
-Game 9:
-Total kills: 53
-Players: Assasinu Credi, Oootsimo, Zeh, Mal, Dono da Bola, Isgalamido, Chessus
-Assasinu Credi killed -1 players
-Oootsimo killed 8 players
-Zeh killed 12 players
-Mal killed 2 players
-Dono da Bola killed -1 players
-Isgalamido killed 1 players
-Chessus killed 8 players
+ game_9: {
+   total_kills: 53;
+   players: ["Assasinu Credi", "Oootsimo", "Zeh", "Mal", "Dono da Bola", "Isgalamido", "Chessus"]
+   kills: {
+     "Assasinu Credi":  -1
+     "Oootsimo":  8
+     "Zeh":  12
+     "Mal":  2
+     "Dono da Bola":  -1
+     "Isgalamido":  1
+     "Chessus":  8
 
-Game 10:
-Total kills: 50
-Players: Mal, Oootsimo, Chessus, Dono da Bola, Zeh, Isgalamido, Assasinu Credi
-Mal killed 1 players
-Oootsimo killed -1 players
-Chessus killed 5 players
-Dono da Bola killed -2 players
-Zeh killed 7 players
-Isgalamido killed 5 players
-Assasinu Credi killed -2 players
+ game_10: {
+   total_kills: 50;
+   players: ["Mal", "Oootsimo", "Chessus", "Dono da Bola", "Zeh", "Isgalamido", "Assasinu Credi"]
+   kills: {
+     "Mal":  1
+     "Oootsimo":  -1
+     "Chessus":  5
+     "Dono da Bola":  -2
+     "Zeh":  7
+     "Isgalamido":  5
+     "Assasinu Credi":  -2
 
-Game 11:
-Total kills: 19
-Players: Dono da Bola, Isgalamido, Oootsimo, Assasinu Credi, Chessus, Zeh, Mal
-Dono da Bola killed -3 players
-Isgalamido killed 4 players
-Oootsimo killed 4 players
-Assasinu Credi killed -3 players
-Chessus killed 0 players
-Zeh killed 0 players
-Mal killed 0 players
+ game_11: {
+   total_kills: 19;
+   players: ["Dono da Bola", "Isgalamido", "Oootsimo", "Assasinu Credi", "Chessus", "Zeh", "Mal"]
+   kills: {
+     "Dono da Bola":  -3
+     "Isgalamido":  4
+     "Oootsimo":  4
+     "Assasinu Credi":  -3
+     "Chessus":  0
+     "Zeh":  0
+     "Mal":  0
 
-Game 12:
-Total kills: 126
-Players: Dono da Bola, Mal, Zeh, Chessus, Isgalamido, Oootsimo, Assasinu Credi
-Dono da Bola killed -8 players
-Mal killed -7 players
-Zeh killed 11 players
-Chessus killed 12 players
-Isgalamido killed 24 players
-Oootsimo killed 12 players
-Assasinu Credi killed -3 players
+ game_12: {
+   total_kills: 126;
+   players: ["Dono da Bola", "Mal", "Zeh", "Chessus", "Isgalamido", "Oootsimo", "Assasinu Credi"]
+   kills: {
+     "Dono da Bola":  -8
+     "Mal":  -7
+     "Zeh":  11
+     "Chessus":  12
+     "Isgalamido":  24
+     "Oootsimo":  12
+     "Assasinu Credi":  -3
 
-Game 13:
-Total kills: 6
-Players: Isgalamido, Oootsimo, Assasinu Credi, Dono da Bola, Zeh
-Isgalamido killed -1 players
-Oootsimo killed 1 players
-Assasinu Credi killed 0 players
-Dono da Bola killed -1 players
-Zeh killed 2 players
+ game_13: {
+   total_kills: 6;
+   players: ["Isgalamido", "Oootsimo", "Assasinu Credi", "Dono da Bola", "Zeh"]
+   kills: {
+     "Isgalamido":  -1
+     "Oootsimo":  1
+     "Assasinu Credi":  0
+     "Dono da Bola":  -1
+     "Zeh":  2
 
-Game 14:
-Total kills: 101
-Players: Isgalamido, Zeh, Chessus, Dono da Bola, Mal, Oootsimo, Assasinu Credi
-Isgalamido killed 22 players
-Zeh killed 4 players
-Chessus killed 7 players
-Dono da Bola killed -7 players
-Mal killed -5 players
-Oootsimo killed 9 players
-Assasinu Credi killed -5 players
+ game_14: {
+   total_kills: 101;
+   players: ["Isgalamido", "Zeh", "Chessus", "Dono da Bola", "Mal", "Oootsimo", "Assasinu Credi"]
+   kills: {
+     "Isgalamido":  22
+     "Zeh":  4
+     "Chessus":  7
+     "Dono da Bola":  -7
+     "Mal":  -5
+     "Oootsimo":  9
+     "Assasinu Credi":  -5
 
-Game 15:
-Total kills: 3
-Players: Zeh
-Zeh killed -3 players
+ game_15: {
+   total_kills: 3;
+   players: ["Zeh"]
+   kills: {
+     "Zeh":  -3
 
-Game 17:
-Total kills: 13
-Players: Dono da Bola, Zeh, Assasinu Credi, Oootsimo, Isgalamido, Mal
-Dono da Bola killed -2 players
-Zeh killed 0 players
-Assasinu Credi killed -3 players
-Oootsimo killed 0 players
-Isgalamido killed 0 players
-Mal killed -1 players
+ game_17: {
+   total_kills: 13;
+   players: ["Dono da Bola", "Zeh", "Assasinu Credi", "Oootsimo", "Isgalamido", "Mal"]
+   kills: {
+     "Dono da Bola":  -2
+     "Zeh":  0
+     "Assasinu Credi":  -3
+     "Oootsimo":  0
+     "Isgalamido":  0
+     "Mal":  -1
 
-Game 18:
-Total kills: 5
-Players: Zeh, Assasinu Credi, Isgalamido, Mal, Dono da Bola
-Zeh killed 2 players
-Assasinu Credi killed 0 players
-Isgalamido killed 1 players
-Mal killed -1 players
-Dono da Bola killed -1 players
+ game_18: {
+   total_kills: 5;
+   players: ["Zeh", "Assasinu Credi", "Isgalamido", "Mal", "Dono da Bola"]
+   kills: {
+     "Zeh":  2
+     "Assasinu Credi":  0
+     "Isgalamido":  1
+     "Mal":  -1
+     "Dono da Bola":  -1
 
-Game 19:
-Total kills: 68
-Players: Mal, Zeh, Dono da Bola, Isgalamido, Assasinu Credi, Oootsimo
-Mal killed 2 players
-Zeh killed 20 players
-Dono da Bola killed -1 players
-Isgalamido killed 13 players
-Assasinu Credi killed -3 players
-Oootsimo killed 10 players
+ game_19: {
+   total_kills: 68;
+   players: ["Mal", "Zeh", "Dono da Bola", "Isgalamido", "Assasinu Credi", "Oootsimo"]
+   kills: {
+     "Mal":  2
+     "Zeh":  20
+     "Dono da Bola":  -1
+     "Isgalamido":  13
+     "Assasinu Credi":  -3
+     "Oootsimo":  10
 
-Game 20:
-Total kills: 1
-Players: Oootsimo, Assasinu Credi
-Oootsimo killed 1 players
-Assasinu Credi killed 0 players
+ game_20: {
+   total_kills: 1;
+   players: ["Oootsimo", "Assasinu Credi"]
+   kills: {
+     "Oootsimo":  1
+     "Assasinu Credi":  0
 
-Game 21:
-Total kills: 93
-Players: Dono da Bola, Zeh, Oootsimo, Mal, Isgalamido, Assasinu Credi
-Dono da Bola killed -2 players
-Zeh killed 19 players
-Oootsimo killed 21 players
-Mal killed 6 players
-Isgalamido killed 17 players
-Assasinu Credi killed -3 players
+ game_21: {
+   total_kills: 93;
+   players: ["Dono da Bola", "Zeh", "Oootsimo", "Mal", "Isgalamido", "Assasinu Credi"]
+   kills: {
+     "Dono da Bola":  -2
+     "Zeh":  19
+     "Oootsimo":  21
+     "Mal":  6
+     "Isgalamido":  17
+     "Assasinu Credi":  -3
 

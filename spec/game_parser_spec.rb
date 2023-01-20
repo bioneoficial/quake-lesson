@@ -14,7 +14,7 @@ describe GameParser do
 
   describe 'Creates new GameParser instance' do
     it 'creates a new GameParser instance' do
-      expect(GameParser.new).to be_an_instance_of(GameParser)
+      expect(parser).to be_an_instance_of(GameParser)
     end
   end
   describe '#parse' do
@@ -23,13 +23,13 @@ describe GameParser do
     end
 
     it 'should remove games with no players' do
-      allow(File).to receive(:open).with(file, 'r').and_yield(file)
-      allow(file).to receive(:each_line).and_return([])
-      allow(parser).to receive(:process_game_lines)
-      parser.parse(file)
+      parser.parse('fixture.log')
       expect(parser.games).to receive(:reject!)
-      parser.parse(file)
+      parser.parse('fixture.log')
+      expect(parser.games.values.all? { |game| game.players.empty? }).to be true
     end
+
+
   end
 
   describe '#write_games_report' do

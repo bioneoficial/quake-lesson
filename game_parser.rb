@@ -34,11 +34,12 @@ class GameParser
   def write_games_report(file_name)
     File.open(file_name, 'w') do |file|
       @games.each do |game_id, game|
-        file.puts "Game #{game_id}:"
-        file.puts "Total kills: #{game.total_kills}"
-        file.puts "Players: #{game.players.map { |_, player| player.name }.join(', ')}"
+        file.puts " game_#{game_id}: {"
+        file.puts "   total_kills: #{game.total_kills};"
+        file.puts "   players: [#{game.players.map { |_, player| "\"#{player.name}\"" }.join(', ')}]"
+        file.puts '   kills: {'
         game.kills.each do |player, kills|
-          file.puts "#{player} killed #{kills} players"
+          file.puts "     \"#{player}\":  #{kills}"
         end
         file.puts "\n"
       end
@@ -47,11 +48,12 @@ class GameParser
 
   def print_games_report
     @games.each do |game_id, game|
-      puts "Game #{game_id}:"
-      puts "Total kills: #{game.total_kills}"
-      puts "Players: #{game.players.map { |_, player| player.name }.join(', ')}"
+      puts "game_#{game_id}: {"
+      puts "  total_kills: #{game.total_kills};"
+      puts "  players: [#{game.players.map { |_, player| player.name }.join(', ')}]"
+      puts '  kills: {'
       game.kills.each do |player, kills|
-        puts "#{player} killed #{kills} players"
+        puts "\"#{player}\":  #{kills}"
       end
       puts "\n"
     end

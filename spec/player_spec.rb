@@ -23,10 +23,10 @@ describe Player do
       expect(player1.kills).to eq(10)
     end
 
-    it 'increments kills by a random number' do
-      random_number = rand(1..20)
-      random_number.times { player1.increment_kill }
-      expect(player1.kills).to eq(random_number)
+    it 'increments kills by 5' do
+      player1.kills = 3
+      5.times { player1.increment_kill }
+      expect(player1.kills).to eq(8)
     end
   end
 
@@ -40,10 +40,10 @@ describe Player do
       expect(player1.kills).to eq(-10)
     end
 
-    it 'decrements kills by a random number' do
-      random_number = rand(1..20)
-      random_number.times { player1.decrement_kill }
-      expect(player1.kills).to eq(-random_number)
+    it 'decrements kills by 5' do
+      player1.kills = 20
+      5.times { player1.decrement_kill }
+      expect(player1.kills).to eq(15)
     end
 
     it 'decrements kills to a negative number' do
