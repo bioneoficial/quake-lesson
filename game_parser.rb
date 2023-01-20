@@ -41,6 +41,8 @@ class GameParser
         game.kills.each do |player, kills|
           file.puts "     \"#{player}\":  #{kills}"
         end
+        file.puts "   }"
+        file.puts "}"
         file.puts "\n"
       end
     end

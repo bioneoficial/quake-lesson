@@ -4,6 +4,8 @@
    kills: {
      "Isgalamido":  -7
      "Mocinha":  0
+   }
+}
 
  game_3: {
    total_kills: 4;
@@ -13,6 +15,8 @@
      "Mocinha":  0
      "Zeh":  -2
      "Dono da Bola":  -1
+   }
+}
 
  game_4: {
    total_kills: 69;
@@ -22,6 +26,8 @@
      "Dono da Bola":  -7
      "Zeh":  20
      "Assasinu Credi":  -3
+   }
+}
 
  game_5: {
    total_kills: 9;
@@ -31,6 +37,8 @@
      "Zeh":  1
      "Dono da Bola":  0
      "Assasinu Credi":  -4
+   }
+}
 
  game_6: {
    total_kills: 26;
@@ -44,6 +52,8 @@
      "Maluquinho":  0
      "Assasinu Credi":  0
      "Mal":  0
+   }
+}
 
  game_7: {
    total_kills: 94;
@@ -56,6 +66,8 @@
      "Isgalamido":  14
      "Assasinu Credi":  0
      "Chessus":  0
+   }
+}
 
  game_8: {
    total_kills: 72;
@@ -67,6 +79,8 @@
      "Assasinu Credi":  -2
      "Dono da Bola":  -2
      "Mal":  -3
+   }
+}
 
  game_9: {
    total_kills: 53;
@@ -79,6 +93,8 @@
      "Dono da Bola":  -1
      "Isgalamido":  1
      "Chessus":  8
+   }
+}
 
  game_10: {
    total_kills: 50;
@@ -91,6 +107,8 @@
      "Zeh":  7
      "Isgalamido":  5
      "Assasinu Credi":  -2
+   }
+}
 
  game_11: {
    total_kills: 19;
@@ -103,6 +121,8 @@
      "Chessus":  0
      "Zeh":  0
      "Mal":  0
+   }
+}
 
  game_12: {
    total_kills: 126;
@@ -115,6 +135,8 @@
      "Isgalamido":  24
      "Oootsimo":  12
      "Assasinu Credi":  -3
+   }
+}
 
  game_13: {
    total_kills: 6;
@@ -125,6 +147,8 @@
      "Assasinu Credi":  0
      "Dono da Bola":  -1
      "Zeh":  2
+   }
+}
 
  game_14: {
    total_kills: 101;
@@ -137,12 +161,16 @@
      "Mal":  -5
      "Oootsimo":  9
      "Assasinu Credi":  -5
+   }
+}
 
  game_15: {
    total_kills: 3;
    players: ["Zeh"]
    kills: {
      "Zeh":  -3
+   }
+}
 
  game_17: {
    total_kills: 13;
@@ -154,6 +182,8 @@
      "Oootsimo":  0
      "Isgalamido":  0
      "Mal":  -1
+   }
+}
 
  game_18: {
    total_kills: 5;
@@ -164,6 +194,8 @@
      "Isgalamido":  1
      "Mal":  -1
      "Dono da Bola":  -1
+   }
+}
 
  game_19: {
    total_kills: 68;
@@ -175,6 +207,8 @@
      "Isgalamido":  13
      "Assasinu Credi":  -3
      "Oootsimo":  10
+   }
+}
 
  game_20: {
    total_kills: 1;
@@ -182,6 +216,8 @@
    kills: {
      "Oootsimo":  1
      "Assasinu Credi":  0
+   }
+}
 
  game_21: {
    total_kills: 93;
@@ -193,4 +229,6 @@
      "Mal":  6
      "Isgalamido":  17
      "Assasinu Credi":  -3
+   }
+}
 
