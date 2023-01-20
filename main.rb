@@ -2,7 +2,7 @@ require_relative 'game'
 require_relative 'game_parser'
 require_relative 'top_kill_report'
 #TASK1
-#
+
 ted = GameParser.new
 ted.parse('games.log')
 ted.write_games_report('games_report.txt')
