@@ -28,10 +28,4 @@ class TopKillReport
     end
   end
 
-  def print_kill_report
-    puts 'Ranking of total kills per player:'
-    @players.each do |_name, player|
-      puts "#{player.name} - #{player.kills} kills"
-    end
-  end
 end
